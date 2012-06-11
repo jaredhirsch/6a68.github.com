@@ -1,11 +1,11 @@
-<!DOCTYPE html>  <html> <head>   <title>meebo-jquery.js</title>   <meta http-equiv="content-type" content="text/html; charset=UTF-8">   <link rel="stylesheet" media="all" href="docco.css" /> </head> <body>   <div id="container">     <div id="background"></div>            <div id="jump_to">         Jump To &hellip;         <div id="jump_wrapper">           <div id="jump_page">                                           <a class="source" href="code-equals-data-equals-code.html">                 code-equals-data-equals-code.js               </a>                                           <a class="source" href="functional-programming.html">                 functional-programming.js               </a>                                           <a class="source" href="index.html">                 index.js               </a>                                           <a class="source" href="meebo-jquery.html">                 meebo-jquery.js               </a>                                           <a class="source" href="reentrant-exceptions.html">                 reentrant-exceptions.js               </a>                                           <a class="source" href="rsvp.html">                 rsvp.js               </a>                                           <a class="source" href="theres-a-bluebird-in-my-heart.html">                 theres-a-bluebird-in-my-heart.js               </a>                        </div>         </div>       </div>          <table cellpadding="0" cellspacing="0">       <thead>         <tr>           <th class="docs">             <h1>               meebo-jquery.js             </h1>           </th>           <th class="code">           </th>         </tr>       </thead>       <tbody>                               <tr id="section-1">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-1">&#182;</a>               </div>               <p>some reusable components I put together as part of the team
-building meebo's "interest graph" product. In the third and
-last version of the product, we used jQuery and kept as much
-logic on the server as possible.</p>
+<!DOCTYPE html>  <html> <head>   <title>meebo-jquery.js</title>   <meta http-equiv="content-type" content="text/html; charset=UTF-8">   <link rel="stylesheet" media="all" href="docco.css" /> </head> <body>   <div id="container">     <div id="background"></div>            <div id="jump_to">         Jump To &hellip;         <div id="jump_wrapper">           <div id="jump_page">                                           <a class="source" href="code-equals-data-equals-code.html">                 code-equals-data-equals-code.js               </a>                                           <a class="source" href="functional-programming.html">                 functional-programming.js               </a>                                           <a class="source" href="index.html">                 index.js               </a>                                           <a class="source" href="meebo-jquery.html">                 meebo-jquery.js               </a>                                           <a class="source" href="reentrant-exceptions.html">                 reentrant-exceptions.js               </a>                                           <a class="source" href="rsvp.html">                 rsvp.js               </a>                                           <a class="source" href="theres-a-bluebird-in-my-heart.html">                 theres-a-bluebird-in-my-heart.js               </a>                        </div>         </div>       </div>          <table cellpadding="0" cellspacing="0">       <thead>         <tr>           <th class="docs">             <h1>               meebo-jquery.js             </h1>           </th>           <th class="code">           </th>         </tr>       </thead>       <tbody>                               <tr id="section-1">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-1">&#182;</a>               </div>               <p>These are some reusable components I put together as part of the
+team building meebo's "interest graph" product. In the third and
+final version of the product, we switched from YUI 3 to jQuery,
+and moved as much logic to the server as possible.</p>
 
 <p>Although the team focused on writing throwaway code, I was able
 to find a few long-lived UI components that occurred throughout
-the site in slightly-different forms, abstract just enough to
+the product in slightly-different forms, abstract just enough to
 reduce duplication, and add some documentation to codify assumptions.</p>
 
 <p>Here are a few of those components. I haven't modified them
@@ -13,13 +13,14 @@ from the production versions, except to replace inline comments
 with the multiline style (for docco clarity), and of course other
 developers have made (mostly minor) changes: this isn't solely mine.</p>
 
-<p>Note also that the terse one-liners are the meebo house style, not
-my personal style :-P and I've included the tooltip code as an
-example of the code the lead developer wrote; his personal style
-was enforced as the team style.</p>
+<p>Note also that the terse one-liners and very, very minimal in-code
+comments are the meebo house style, not my personal style. I've
+included tooltip code at the bottom of this article as an example of
+code written by meebo's longest-tenured JS developer; his personal
+style was enforced as the team style.</p>
 
-<p>I downloaded this code from s4.meebocdn.net/bigben-static/0.38.0/js/base.js,
-where it will be until 7/11/12, when meebo.com shuts down.</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="cm">/*</span>
+<p>I downloaded this code from <a href="s4.meebocdn.net/bigben-static/0.38.0/js/base.js">meebo's cdn</a>,
+where it will be available until 7/11/12, when meebo.com is shut down.</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="cm">/*</span>
 <span class="cm"> * dropdowns are swell</span>
 <span class="cm"> *</span>
 <span class="cm"> * optionally will dynamically fetch contents for you (via data-dropdown-endpoint attr)</span>
@@ -176,15 +177,15 @@ where it will be until 7/11/12, when meebo.com shuts down.</p>             </td>
         <span class="p">}</span>
         <span class="nx">switchTab</span><span class="p">(</span><span class="nx">tab</span><span class="p">);</span>
     <span class="p">});</span>
-<span class="p">})();</span></pre></div>             </td>           </tr>                               <tr id="section-2">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-2">&#182;</a>               </div>               <p>for context, here's the Tooltip code written by the lead dev.
-compared to the bulk of the meebo code, this is extremely generously
-documented.</p>
+<span class="p">})();</span></pre></div>             </td>           </tr>                               <tr id="section-2">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-2">&#182;</a>               </div>               <p>For context, here's a tooltip written by the developer who defined
+meebo's team style. Compared to the bulk of the meebo codebase, this
+is an extremely generously documented example.</p>
 
 <p>I have modified the code to replace one-line with multi-line comments,
 so that docco doesn't split out the original code comments from the code.</p>
 
-<p>It lives at s4.meebocdn.net/bigben-static/0.38.0/js/tooltip.js
-until meebo shuts down on 7/11/12.</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">$</span><span class="p">)</span> <span class="p">{</span>
+<p>This code was downloaded from <a href="s4.meebocdn.net/bigben-static/0.38.0/js/tooltip.js">meebo's cdn</a>,
+where it'll be available until meebo shuts down on 7/11/12.</p>             </td>             <td class="code">               <div class="highlight"><pre><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">$</span><span class="p">)</span> <span class="p">{</span>
 
     <span class="nx">Tooltip</span> <span class="o">=</span> <span class="p">{</span>
 

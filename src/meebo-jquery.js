@@ -1,11 +1,11 @@
-// some reusable components I put together as part of the team
-// building meebo's "interest graph" product. In the third and
-// last version of the product, we used jQuery and kept as much
-// logic on the server as possible.
+// These are some reusable components I put together as part of the
+// team building meebo's "interest graph" product. In the third and
+// final version of the product, we switched from YUI 3 to jQuery,
+// and moved as much logic to the server as possible.
 //
 // Although the team focused on writing throwaway code, I was able
 // to find a few long-lived UI components that occurred throughout
-// the site in slightly-different forms, abstract just enough to
+// the product in slightly-different forms, abstract just enough to
 // reduce duplication, and add some documentation to codify assumptions.
 //
 // Here are a few of those components. I haven't modified them
@@ -13,13 +13,14 @@
 // with the multiline style (for docco clarity), and of course other
 // developers have made (mostly minor) changes: this isn't solely mine.
 //
-// Note also that the terse one-liners are the meebo house style, not
-// my personal style :-P and I've included the tooltip code as an
-// example of the code the lead developer wrote; his personal style
-// was enforced as the team style.
+// Note also that the terse one-liners and very, very minimal in-code
+// comments are the meebo house style, not my personal style. I've
+// included tooltip code at the bottom of this article as an example of
+// code written by meebo's longest-tenured JS developer; his personal
+// style was enforced as the team style.
 //
-// I downloaded this code from s4.meebocdn.net/bigben-static/0.38.0/js/base.js,
-// where it will be until 7/11/12, when meebo.com shuts down.
+// I downloaded this code from [meebo's cdn](s4.meebocdn.net/bigben-static/0.38.0/js/base.js),
+// where it will be available until 7/11/12, when meebo.com is shut down.
 
 /*
  * dropdowns are swell
@@ -180,15 +181,15 @@ $(document).on('mouseenter', '*[data-info-tooltip]', function (e) {
     });
 })();
 
-// for context, here's the Tooltip code written by the lead dev.
-// compared to the bulk of the meebo code, this is extremely generously
-// documented.
+// For context, here's a tooltip written by the developer who defined
+// meebo's team style. Compared to the bulk of the meebo codebase, this
+// is an extremely generously documented example.
 //
 // I have modified the code to replace one-line with multi-line comments,
 // so that docco doesn't split out the original code comments from the code.
 //
-// It lives at s4.meebocdn.net/bigben-static/0.38.0/js/tooltip.js
-// until meebo shuts down on 7/11/12.
+// This code was downloaded from [meebo's cdn](s4.meebocdn.net/bigben-static/0.38.0/js/tooltip.js),
+// where it'll be available until meebo shuts down on 7/11/12.
 (function ($) {
 
     Tooltip = {
