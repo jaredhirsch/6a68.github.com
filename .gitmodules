@@ -1,3 +1,0 @@
-[submodule "docco"]
-	path = docco
-	url = git://github.com/jashkenas/docco.git
