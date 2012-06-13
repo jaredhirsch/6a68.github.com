@@ -23,14 +23,14 @@ it feels coherent enough, Ill start building it out."
 
 // ### geekcore
 
-// * [There's a Bluebird in my Heart: combinators in JS](theres-a-bluebird-in-my-heart.html)
-"JS coverage of birdie characters from _To Mock a Mockingbird_."
-
 // * [Re-entrant Exceptions in JS](reentrant-exceptions.html)
 "If you explicitly control the call stack, then you can fire a missing
 method exception, create the method, then resume execution. I learned
 about this through Smalltalk TDD literature. I've always wanted it in
 JS. So, here's an exploration of what it takes to get there."
+
+// * [There's a Bluebird in my Heart: combinators in JS](theres-a-bluebird-in-my-heart.html)
+"JS coverage of birdie characters from _To Mock a Mockingbird_."
 
 // * [Functional Programming, thoughts](functional-programming.html)
 
