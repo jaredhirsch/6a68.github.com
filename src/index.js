@@ -29,6 +29,13 @@ method exception, create the method, then resume execution. I learned
 about this through Smalltalk TDD literature. I've always wanted it in
 JS. So, here's an exploration of what it takes to get there."
 
+// * [Front-end architecture tradeoffs](frontend-architecture-patterns.html)
+"There's a lot of talk about lightweight vs heavyweight approaches to
+writing front-end code, but evangelists don't talk nearly as much about
+which problems are best solved by their favorite tool or framework. This
+is a first pass at listing the factors to consider before choosing the
+tools to use in building a given project."
+
 // * [There's a Bluebird in my Heart: combinators in JS](theres-a-bluebird-in-my-heart.html)
 "JS coverage of birdie characters from _To Mock a Mockingbird_."
 
