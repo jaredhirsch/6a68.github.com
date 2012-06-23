@@ -14,8 +14,16 @@
 // ## articles:
 // ### note, *everything* is a draft at the moment :-)
 //
+// curious what's new? check the [github commit logs](https://github.com/6a68/6a68.github.com/commits/master)
 
 // ### producty
+
+// * Twitter with attenuation
+"I sometimes wish I could turn down the frequency of certain feeds
+within my global twitter stream. All you'd need is one slider per
+person, to limit them to 1 or 5 or 10 per day (or just apply no limit,
+the default standard setting). There's no article here yet; I might
+just build this out and see if I like it."
 
 // * [RSVP, email simplified](rsvp.html) 
 "Rethinking email; this is a running draft of a product concept. When
@@ -35,6 +43,16 @@ writing front-end code, but evangelists don't talk nearly as much about
 which problems are best solved by their favorite tool or framework. This
 is a first pass at listing the factors to consider before choosing the
 tools to use in building a given project."
+
+// * [JavaScript dependency management: an epic interview question](interview-problems-dependency-manager.html)
+"Building a dependency manager in JS touches on a lot of interesting areas
+you might want to cover in a programming interview, and it's a practical enough
+problem that people without a comp sci background could still have fun and
+make headway. I've never been asked this question, and since I'm publishing
+my discussion about it, I'll never ask it, but I think it's a cool problem,
+which is why I'm sharing it. The only thing missing is that my formulation of
+the problem doesn't test for DOM knowledge, but it's easily a big enough task
+to fill an hour with good discussion."
 
 // * [There's a Bluebird in my Heart: combinators in JS](theres-a-bluebird-in-my-heart.html)
 "JS coverage of birdie characters from _To Mock a Mockingbird_."
