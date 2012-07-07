@@ -66,3 +66,10 @@ to fill an hour with good discussion."
 
 // * [some jQuery components from meebo days, pulled from the CDN and annotated](meebo-jquery.html)
 // * todo: find some YUI components and post those (much more interesting JS)
+
+// * [fontbomb: somebody else's code, annotated](fontbomb.html)
+
+"Fontbomb is a clever little project with a surprisingly well-written codebase.
+I had nothing to do with it and don't know the author, but I really enjoyed looking
+through the code--surprisingly well-written, for what looks like a fun little
+one-off project. I'm publishing my notes here as an experiment in public obscurity."
