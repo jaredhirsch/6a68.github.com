@@ -7,46 +7,65 @@
            http://6a68.net || 
            http://jaredhirsch.com
 
-    meatspace: San Mateo, CA 
+    meatspace: Los Angeles, CA 
 */
 
 // 
 // ## articles:
 // ### note, *everything* is a draft at the moment :-)
 
+// [backup your tumblr with wget](https://gist.github.com/4354202)
+// <br>2012-12-21 &middot; *Nerdcore*
+
+"After the instagram TOS drama, I decided to download
+my old tumblr photoblog. Rather than just google for
+somebody else's one-liner, I read the wget man page,
+like a Real Neckbeard. It was surprisingly fun; I took
+notes along the way and and threw them in a Gist for
+the sake of future searchers."
+
+"Classified under nerdcore because it's not really geeky
+enough to compare with the spooky PLT stuff below ;-)"
+
 // [fontbomb: somebody else's code, annotated](fontbomb.html)
 // <br>2012-07-07 &middot; *Code*
 
-"Fontbomb is a clever little project with a surprisingly well-written codebase.
-I had nothing to do with it and don't know the author, but I really enjoyed looking
-through the code--surprisingly well-written, for what looks like a fun little
-one-off project. I'm publishing my notes here as an experiment in public obscurity."
+"Fontbomb is a clever little project with a surprisingly
+well-written codebase. I had nothing to do with it and
+don't know the author, but I really enjoyed looking
+through the code--surprisingly well-written, for what
+looks like a fun little one-off project. I'm publishing
+my notes here as an experiment in public obscurity."
 
 // [JavaScript dependency management: an epic interview question](interview-problems-dependency-manager.html)
 // <br>2012-06-23 &middot; *Geekcore*
-"Building a dependency manager in JS touches on a lot of interesting areas
-you might want to cover in a programming interview, and it's a practical enough
-problem that people without a comp sci background could still have fun and
-make headway. I've never been asked this question, and since I'm publishing
-my discussion about it, I'll never ask it, but I think it's a cool problem,
-which is why I'm sharing it. The only thing missing is that my formulation of
-the problem doesn't test for DOM knowledge, but it's easily a big enough task
-to fill an hour with good discussion."
+"Building a dependency manager in JS touches on a lot of
+interesting areas you might want to cover in a programming
+interview, and it's a practical enough problem that people
+without a comp sci background could still have fun and
+make headway. I've never been asked this question, and
+since I'm publishing my discussion about it, I'll never
+ask it, but I think it's a cool problem, which is why
+I'm sharing it. The only thing missing is that my formu-
+lation of the problem doesn't test for DOM knowledge, but
+it's easily a big enough task to fill an hour with good discussion."
 
 // [Front-end architecture tradeoffs](frontend-architecture-patterns.html)
 // <br>2012-06-22 &middot; *Geekcore*
-"There's a lot of talk about lightweight vs heavyweight approaches to
-writing front-end code, but evangelists don't talk nearly as much about
-which problems are best solved by their favorite tool or framework. This
-is a first pass at listing the factors to consider before choosing the
-tools to use in building a given project."
+"There's a lot of talk about lightweight vs heavyweight
+approaches to writing front-end code, but evangelists
+don't talk nearly as much about which problems are best
+solved by their favorite tool or framework. This is a
+first pass at listing the factors to consider before
+choosing the tools to use in building a given project."
 
 // [Re-entrant Exceptions in JS](reentrant-exceptions.html)
 // <br>Last updated 2012-06-13 &middot; *Geekcore*
-"If you explicitly control the call stack, then you can fire a missing
-method exception, create the method, then resume execution. I learned
-about this through Smalltalk TDD literature. I've always wanted it in
-JS. So, here's an exploration of what it takes to get there."
+"If you explicitly control the call stack, then you can
+fire a missing method exception, create the method, then
+resume execution. I learned about this through Smalltalk
+TDD literature. I've always wanted it in JS. So, here's
+an exploration of what it takes to get there."
 
 // [some jQuery components from meebo days, pulled from the CDN and annotated](meebo-jquery.html)
 // <br>2012-06-11 &middot; *Code*
