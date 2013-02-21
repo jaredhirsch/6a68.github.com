@@ -12,9 +12,28 @@
 
 // 
 // ## articles:
-// ### note, *everything* is a draft at the moment :-)
 
-// [backup your tumblr with wget](https://gist.github.com/4354202)
+// [Caching dynamic content with etagify](https://hacks.mozilla.org/2013/02/fantastic-front-end-performance-in-node-part-2-a-node-js-holiday-season-part-6/)
+// <br>*published on [Mozilla Hacks](https://hacks.mozilla.org)*
+// <br>2013-02-20 &middot; *Geekcore*
+
+"First blog post for a significant audience. Part of an
+ongoing node.js series by my team at Mozilla, the Identity
+team. The concrete example was an intro to connect-etagify,
+the broader themes were:
+  * to build simple libraries, focus on the problem at hand
+  * measure your optimizations & use stats to test your measurements"
+
+// [All about ETags](https://gist.github.com/6a68/4971859)
+// <br>2013-02-20 &middot; *Geekcore*
+
+"Support material for the etagify article. Originally, I'd
+planned to include material on statistics and on HTTP caching,
+but this 1000 words came out to streamline the main exposition.
+I cover some pretty far-out applications at the end, like
+optimistic concurrency via conditional PUT."
+
+// [Backup your tumblr with wget](https://gist.github.com/4354202)
 // <br>2012-12-21 &middot; *Nerdcore*
 
 "After the instagram TOS drama, I decided to download
@@ -38,7 +57,7 @@ looks like a fun little one-off project. I'm publishing
 my notes here as an experiment in public obscurity."
 
 // [JavaScript dependency management: an epic interview question](interview-problems-dependency-manager.html)
-// <br>2012-06-23 &middot; *Geekcore*
+// <br>2012-06-23 &middot; *Geekcore* *Incomplete*
 "Building a dependency manager in JS touches on a lot of
 interesting areas you might want to cover in a programming
 interview, and it's a practical enough problem that people
@@ -51,7 +70,7 @@ lation of the problem doesn't test for DOM knowledge, but
 it's easily a big enough task to fill an hour with good discussion."
 
 // [Front-end architecture tradeoffs](frontend-architecture-patterns.html)
-// <br>2012-06-22 &middot; *Geekcore*
+// <br>2012-06-22 &middot; *Geekcore* *Incomplete*
 "There's a lot of talk about lightweight vs heavyweight
 approaches to writing front-end code, but evangelists
 don't talk nearly as much about which problems are best
@@ -60,7 +79,7 @@ first pass at listing the factors to consider before
 choosing the tools to use in building a given project."
 
 // [Re-entrant Exceptions in JS](reentrant-exceptions.html)
-// <br>Last updated 2012-06-13 &middot; *Geekcore*
+// <br>Last updated 2012-06-13 &middot; *Geekcore* *Incomplete*
 "If you explicitly control the call stack, then you can
 fire a missing method exception, create the method, then
 resume execution. I learned about this through Smalltalk
@@ -72,17 +91,17 @@ an exploration of what it takes to get there."
 "todo: find some YUI components and post those (much more interesting JS)"
 
 // [There's a Bluebird in my Heart: combinators in JS](theres-a-bluebird-in-my-heart.html)
-// <br>Last updated 2012-06-10 &middot; *Geekcore*
+// <br>Last updated 2012-06-10 &middot; *Geekcore* *Incomplete*
 "JS coverage of birdie characters from _To Mock a Mockingbird_."
 
 // [RSVP, email simplified](rsvp.html) 
-// <br>Last updated 2012-06-08 &middot; *Producty*
+// <br>Last updated 2012-06-08 &middot; *Producty* *Ongoing*
 "Rethinking email; this is a running draft of a product concept. When
 it feels coherent enough, Ill start building it out."
 
 // [Functional Programming, thoughts](functional-programming.html)
-// <br>Last updated 2012-05-31 &middot; *Geekcore*
+// <br>Last updated 2012-05-31 &middot; *Geekcore* *Incomplete*
 
 // [Code Equals Data Equals Code: JS metaprogramming](code-equals-data-equals-code.html)
-// <br>Last updated 2012-05-31 &middot; *Geekcore*
+// <br>Last updated 2012-05-31 &middot; *Geekcore* *Incomplete*
 "If you keep things simple, going from code to data and back is tractable."
