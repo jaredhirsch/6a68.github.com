@@ -2,7 +2,7 @@
 
 /*
     online: ohai at 6a68.net ||
-           @jaredhirsch on twitter ||
+           @6a68 on twitter, app.net, identi.ca ||
            https://github.com/6a68 || 
            http://6a68.net || 
            http://jaredhirsch.com
@@ -10,8 +10,32 @@
     meatspace: Los Angeles, CA 
 */
 
+
 // 
 // ## articles:
+
+// [Big performance wins by optimizing fonts](https://hacks.mozilla.org/2013/03/fantastic-front-end-performance-part-3-big-performance-wins-by-optimizing-fonts-a-node-js-holiday-season-part-8/)
+// <br>*published on [Mozilla Hacks](https://hacks.mozilla.org)*
+// <br>2013-03-19 &middot; *Geekcore*
+
+"Another contribution to the Identity team's node blog series.
+This time, talking about font subsetting and connect-fonts, a sweet
+little middleware that serves up i18n'd subsets for you, plus
+manages CORS headers and generated CSS @font-face declarations."
+
+// [@font-face links for the connect-fonts article](https://gist.github.com/6a68/5187976)
+// <br>2013-03-19 &middot; *Geekcore*
+
+"Support material for connect-fonts article: a sparsely-annotated
+list of @font-face links."
+
+// [simple horiz-bar graffage](https://gist.github.com/6a68/5166525)
+// <br>2013-03-19 &middot; *Geekcore*
+
+"d3.js material taken from a tutorial and extended. Used to generate
+the horizontal bar graphs in the connect-fonts article, and made public
+in the hopes that someone else can do something with it."
+
 
 // [Caching dynamic content with etagify](https://hacks.mozilla.org/2013/02/fantastic-front-end-performance-in-node-part-2-a-node-js-holiday-season-part-6/)
 // <br>*published on [Mozilla Hacks](https://hacks.mozilla.org)*
@@ -32,6 +56,7 @@ planned to include material on statistics and on HTTP caching,
 but this 1000 words came out to streamline the main exposition.
 I cover some pretty far-out applications at the end, like
 optimistic concurrency via conditional PUT."
+
 
 // [Backup your tumblr with wget](https://gist.github.com/4354202)
 // <br>2012-12-21 &middot; *Nerdcore*
