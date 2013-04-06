@@ -1,4 +1,30 @@
-// first pass. I'm tired of putting stuff in gists.
+// first pass.
+// 
+// # Flow control
+// 
+// Doing the thing. Same thing on client and server.
+// 
+// ### 1. Flow control options
+// 
+// * node-style callbacks (continuation passing style)
+// * promises
+// * deferreds
+// * pub-sub (publishing and subscribing to events)
+//   * single global event registry
+//   * subscribe to events directly on objects of interest (old-skool Observer pattern)
+// 
+// ### 2. Some examples to motivate comparison
+// 
+// Hoepfully pull these from the browserid codebase
+// 
+// ### 3. Pros and Cons of each approach applied to each example
+// 
+// There's no one right answer for every case. But we can pare down to 2-3 options to use everywhere. This makes our codebase so much easier to read.
+// 
+// ### 4. Wrapping up: which to use, when
+
+
+// second pass. I'm tired of putting stuff in gists.
 
 /*  TODO: add some code examples alongside the exposition as we flesh it out. */
 
