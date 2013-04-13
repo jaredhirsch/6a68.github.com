@@ -24,6 +24,10 @@
 // ### 4. Wrapping up: which to use, when
 
 
+// derp! we should really use browserid's lib/db/mysql.js as a use case/motivating example.
+// it has a lot of repetitive nested err checking in it. adding in this directory for use
+// as extended examples.
+
 // second pass. I'm tired of putting stuff in gists.
 
 /*  TODO: add some code examples alongside the exposition as we flesh it out. */
