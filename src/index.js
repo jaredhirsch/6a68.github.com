@@ -2,7 +2,7 @@
 
 /*
     online: ohai at 6a68.net ||
-           @6a68 on <a href="//https://twitter.com/6a68" rel="me">twitter</a> & <a href="https://github.com/6a68" rel="me">github</a> ||
+           @6a68 on <a href="https://twitter.com/6a68" rel="me">twitter</a> & <a href="https://github.com/6a68" rel="me">github</a> ||
            http://6a68.net || 
            http://jaredhirsch.com
 
