@@ -3,6 +3,7 @@ layout: post
 title:  "The Joy of the Hack: Gecko Focus Stealing Edition"
 date:   2016-03-31 16:42:55 -0700
 categories: mozilla front-end-programming hacks
+permalink:
 ---
 
 I've been working on a prototype, on and off, over the past year. The idea 
