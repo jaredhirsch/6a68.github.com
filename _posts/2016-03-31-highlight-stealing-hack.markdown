@@ -173,7 +173,7 @@ function onMutation() {
 It's a bit of a weird hack, but it certainly works well enough for beta testing:
 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/iwEvOo_Jwfc" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/_LfBQSIBsRY" frameborder="0" allowfullscreen></iframe>
 
 
 If you look carefully at the video, there's some blue flicker that appears when I hit the space bar.
