@@ -46,7 +46,7 @@ The decision-making process is a public, open conversation based on publicly def
 Input from the community is welcome, the Firefox product org makes the final decision, and deliberations happen in the same public channels used by the rest of the community.
 
 ### Sharing prototypes with the Firefox Test Pilot audience
-This is the part we've already built at [https://testpilot.firefox.com].
+This is the part we've already built at [https://testpilot.firefox.com](https://testpilot.firefox.com).
 
 Prototypes ship in the Test Pilot site, and Mozilla provides marketing support and a global audience. Firefox users interested in trying new features install different prototypes, and offer feedback on what they do or don't like.
 
@@ -70,4 +70,4 @@ Ideas that fail to catch on with a big audience, at the end of their Test Pilot 
 
 Next steps: I'm out of time for now, but I'd like to explore which parts of this theoretical open product dev cycle might make sense at Mozilla. In other words, stay tuned, more to come :-)
 
-What do you think? Ping me on twitter (@6a68) or by email (ohai at 6a68.net).
+What do you think? Let me know! Twitter and email are in the footer below.
