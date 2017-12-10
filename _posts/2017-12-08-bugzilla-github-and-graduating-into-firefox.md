@@ -24,7 +24,7 @@ The next time we graduate something into Firefox, we should plan to ship much mo
 
 ### When in Firefox, embrace the Firefox ways
 
-Everything we do, once an experiment gets approval to graduate, should be totally Firefox-centric. Move to Bugzilla for bugs (except, maybe, for server bugs). Mozilla-central for code, starting with one huge import from Github (again, except for server code. Git-cinnabar works really well, if you prefer git over mercurial. We have committers within the team now, and relationships with reviewers, so the code side of things is pretty well sorted.
+Everything we do, once an experiment gets approval to graduate, should be totally Firefox-centric. Move to Bugzilla for bugs (except, maybe, for server bugs). Mozilla-central for code, starting with one huge import from Github (again, except for server code). Git-cinnabar works really well, if you prefer git over mercurial. We have committers within the team now, and relationships with reviewers, so the code side of things is pretty well sorted.
 
 Similarly for processes: we should just go with the existing processes to the best of our ability, which is to say, constantly ask the gatekeepers if we're doing it right. Embrace the fact that everything in Firefox is high-touch, and use existing personal relationships to ask early and often if we've missed any important steps. We will always miss something, whether it's new rules for some step, or neglecting to get signoff from some newly-created team, but we can plan for that in the schedule. I think we've hit most of the big surprises in shipping Screenshots.
 
